@@ -14,39 +14,39 @@ Before running the application, ensure that you have the following dependencies 
 
 1. Clone the repository:
 
-  git clone https://github.com/mithun2003/Backend-for-a-blog.git
+    git clone https://github.com/mithun2003/Backend-for-a-blog.git
 
 
 2. Create a virtual environment and activate it:
 
-  cd Blog
-
-  Virturalenv env
-
-  env/Scripts/activate
+    cd Blog
+  
+    Virturalenv env
+  
+    env/Scripts/activate
 
 
 
 
 3. Install the required packages:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Start the Redis server:
 
-  redis-server
+    redis-server
 
 5. Set up the database and config it:
    
-  Add your dbs information in the .env
-  
-  Python manage.py makemigrations
-  
-  python manage.py migrate
+    Add your dbs information in the .env
+    
+    Python manage.py makemigrations
+    
+    python manage.py migrate
 
 6. Start the application:
 
-  python manage.py runserver
+    python manage.py runserver
 
 The API will be accessible at http://localhost:8000/api/.
 ## API Endpoints
