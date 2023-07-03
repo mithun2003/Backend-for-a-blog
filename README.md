@@ -1,15 +1,21 @@
-Blog
+# Blog
+
 This is a microblogging platform API built with Django and Django REST Framework. It allows users to create posts, follow other users, like posts, and retrieve their timelines.
-Prerequisites
+
+## Prerequisites
+
 Before running the application, ensure that you have the following dependencies installed:
-Python 3.x
-PostgreSQL
-Redis
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/microblogging-platform.git
+
+- Python 3.x
+- PostgreSQL
+- Redis
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/mithun2003/Backend-for-a-blog.git
+
 
 Create a virtual environment and activate it:
 bash
