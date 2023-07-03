@@ -1,6 +1,6 @@
 # Blog
 
-This is a microblogging platform API built with Django and Django REST Framework. It allows users to create posts, follow other users, like posts, and retrieve their timelines.
+This is a Blog platform API built with Django and Django REST Framework. It allows users to create posts,update and list all the posts also user can edit there profile.
 
 ## Prerequisites
 
