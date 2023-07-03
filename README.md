@@ -18,8 +18,6 @@ git clone https://github.com/mithun2003/Backend-for-a-blog.git
 
 
 Create a virtual environment and activate it:
-bash
-Copy code
 cd Blog
 Virturalenv env
 env/Scripts/activate
